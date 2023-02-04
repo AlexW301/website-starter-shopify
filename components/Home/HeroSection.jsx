@@ -6,7 +6,7 @@ export default function HerSection({className}) {
     <div className={`${className} my-48 mx-auto max-w-containerxl px-4 sm:mt-24 md:mt-72 text-center`}>
       <h1 className="font-extrabold text-gray-900 magic">
         <p className="text-xl sm:text-3xl md:text-4xl">Wicked Fast + Secure + Customizable:</p>
-        <p className="text-4xl text-transparent magic-text bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 sm:text-6xl md:text-7xl">
+        <p className="text-5xl text-transparent magic-text bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 sm:text-6xl md:text-7xl">
           Next-Gen <br className="lg:hidden"/> Ecommerce
         </p>
       </h1>
