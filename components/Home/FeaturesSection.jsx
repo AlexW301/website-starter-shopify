@@ -22,12 +22,12 @@ const incentives = [
 
 export default function FeaturesSection() {
   return (
-    <div className="bg-white">
-      <div className="py-24 mx-auto max-w-7xl sm:px-2 sm:py-32 lg:px-4">
-        <div className="max-w-2xl px-4 mx-auto lg:max-w-none">
+    <div className="px-4 bg-white">
+      <div className="px-0 py-24 mx-auto max-w-7xl sm:py-32 lg:px-4">
+        <div className="max-w-2xl mx-auto lg:max-w-none">
           <div className="max-w-3xl mx-auto mb-10 text-center md:mb-16">
             <h2 className="mb-5 text-4xl font-bold tracking-tight text-transparent magic md:mb-10 sm:text-5xl md:text-6xl bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500">
-              <span className="magic-text">An Unmatched Experience</span>
+              <span className="magic-text">An Unmatched <br/> Experience</span>
             </h2>
             <p className="mt-4 text-gray-500">
               Our ecommerce platform is designed to elevate the shopping experience for small businesses and their

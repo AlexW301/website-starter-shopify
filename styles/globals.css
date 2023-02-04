@@ -40,28 +40,6 @@
   position: relative;
 }
 
-.magic > .magic-star {
-  --size: clamp(20px, 1.5vw, 30px);
-
-  animation: scale 700ms ease forwards;
-  display: block;
-  height: var(--size);
-  left: var(--star-left);
-  position: absolute;
-  top: var(--star-top);
-  width: var(--size);
-}
-
-.magic > .magic-star > svg {
-  animation: rotate 1000ms linear infinite;
-  display: block;
-  opacity: 0.7;
-}
-
-.magic > .magic-star > svg > path {
-  fill: #5cbb47;
-}
-
 .magic > .magic-text {
   animation: background-pan 3s linear infinite;
   background: linear-gradient(to right,  #9D88F9, #E84AC0, #EF4445, #9D88F9);

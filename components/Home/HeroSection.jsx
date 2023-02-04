@@ -7,7 +7,7 @@ export default function HerSection({className}) {
       <h1 className="font-extrabold text-gray-900 magic">
         <p className="text-xl sm:text-3xl md:text-4xl">Wicked Fast + Secure + Customizable:</p>
         <p className="text-4xl text-transparent magic-text bg-clip-text bg-gradient-to-r from-purple-400 via-pink-500 to-red-500 sm:text-6xl md:text-7xl">
-          Next-Gen Ecommerce
+          Next-Gen <br className="lg:hidden"/> Ecommerce
         </p>
       </h1>
       <h2 className="max-w-md mx-auto mt-3 text-gray-500 sm:text-lg md:mt-5 md:text-xl md:max-x-3xl">
