@@ -24,7 +24,7 @@ export default function ProductList({className, products}) {
       <div className="flex flex-col items-center px-4 py-12 text-center xl:px-0">
         <h1 className="text-4xl font-bold tracking-tight text-gray-900">Browse Our Products</h1>
         <p className="max-w-3xl mx-auto mt-4 text-base text-gray-500">
-          {`Try out the fastest ecommerce site you've ever seen.`}
+          {`Try out the fastest ecommerce site you've ever used.`}
         </p>
       </div>
       <div className="max-w-2xl px-4 mx-auto sm:px-6 lg:max-w-7xl lg:px-8">
