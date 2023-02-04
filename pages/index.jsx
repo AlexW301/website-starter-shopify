@@ -1,15 +1,24 @@
-import Head from 'next/head'
-// import { Inter } from '@next/font/google'
-import { HeroSection } from '@/components/Home'
+import Head from "next/head";
+import {getProductsInCollection} from "../lib/shopify";
+import {HeroSection, FeaturesSection} from "@/components/Home";
+import {ProductList} from "@/components/Ecommerce";
 
-// const inter = Inter({ subsets: ['latin'] })
-
-export default function Home() {
+export default function Home({products}) {
   return (
     <>
-      <main >
+      <main>
         <HeroSection />
+        <ProductList products={products} />
+        <FeaturesSection />
       </main>
     </>
-  )
+  );
+}
+
+export async function getStaticProps() {
+  const products = await getProductsInCollection("frontpage");
+
+  return {
+    props: {products}, // will be passed to the page component as props
+  };
 }
